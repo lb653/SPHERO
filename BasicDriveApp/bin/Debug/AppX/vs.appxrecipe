@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAURA</Machine>
+    <WindowsUser>laura.boccanfuso</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1c299fe1-c7cd-402c-8799-f93d6f534c55</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>3D07558A8038A0CB27F5D4ED8CD2D89AF21DD4A860BFA248C43DF42EDF18EC86</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1c299fe1-c7cd-402c-8799-f93d6f534c55_1.0.0.1_neutral__r2rfyxbjmbe0y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1c299fe1-c7cd-402c-8799-f93d6f534c55_r2rfyxbjmbe0y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1c299fe1-c7cd-402c-8799-f93d6f534c55</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=WindowsSdk_2</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-12-04T15:06:47.483</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\Debug\BasicDriveApp.exe">
+      <PackagePath>BasicDriveApp.exe</PackagePath>
+      <Modified>2014-12-04T15:23:53.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\RobotKit.dll">
+      <PackagePath>RobotKit.dll</PackagePath>
+      <Modified>2014-06-06T00:45:01.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\ah.wav">
+      <PackagePath>Assets\ah.wav</PackagePath>
+      <Modified>2014-09-17T20:55:53.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\angry_music.wav">
+      <PackagePath>Assets\angry_music.wav</PackagePath>
+      <Modified>2014-07-10T23:24:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\angry_vocal.wav">
+      <PackagePath>Assets\angry_vocal.wav</PackagePath>
+      <Modified>2014-08-01T15:24:48.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\baby_crying.wav">
+      <PackagePath>Assets\baby_crying.wav</PackagePath>
+      <Modified>2014-09-15T17:47:08.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\cheering.wav">
+      <PackagePath>Assets\cheering.wav</PackagePath>
+      <Modified>2014-09-26T17:24:28.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\child_crying.wav">
+      <PackagePath>Assets\child_crying.wav</PackagePath>
+      <Modified>2014-12-04T15:02:01.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\cry1.wav">
+      <PackagePath>Assets\cry1.wav</PackagePath>
+      <Modified>2014-09-17T20:55:53.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\cry3.wav">
+      <PackagePath>Assets\cry3.wav</PackagePath>
+      <Modified>2014-09-23T18:06:30.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\cry4.wav">
+      <PackagePath>Assets\cry4.wav</PackagePath>
+      <Modified>2014-09-23T18:06:30.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\cry5.wav">
+      <PackagePath>Assets\cry5.wav</PackagePath>
+      <Modified>2014-09-23T18:06:30.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\eek.wav">
+      <PackagePath>Assets\eek.wav</PackagePath>
+      <Modified>2014-09-17T20:55:53.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\gasp1.wav">
+      <PackagePath>Assets\gasp1.wav</PackagePath>
+      <Modified>2014-09-17T20:55:53.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\gasp2.wav">
+      <PackagePath>Assets\gasp2.wav</PackagePath>
+      <Modified>2014-09-17T20:55:53.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\haha_mean.wav">
+      <PackagePath>Assets\haha_mean.wav</PackagePath>
+      <Modified>2014-09-17T20:55:53.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\haha_mean2.wav">
+      <PackagePath>Assets\haha_mean2.wav</PackagePath>
+      <Modified>2014-09-17T20:55:53.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\happy_music.wav">
+      <PackagePath>Assets\happy_music.wav</PackagePath>
+      <Modified>2014-07-10T23:22:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\happy_vocal.wav">
+      <PackagePath>Assets\happy_vocal.wav</PackagePath>
+      <Modified>2014-08-01T15:25:13.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\happy_vocal3.wav">
+      <PackagePath>Assets\happy_vocal3.wav</PackagePath>
+      <Modified>2014-09-23T18:06:30.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\happy_vocal4.wav">
+      <PackagePath>Assets\happy_vocal4.wav</PackagePath>
+      <Modified>2014-09-23T18:06:30.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\hmph.wav">
+      <PackagePath>Assets\hmph.wav</PackagePath>
+      <Modified>2014-09-17T20:55:53.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\ouch.WAV">
+      <PackagePath>Assets\ouch.WAV</PackagePath>
+      <Modified>2014-09-16T16:59:15.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\scared_music.wav">
+      <PackagePath>Assets\scared_music.wav</PackagePath>
+      <Modified>2014-07-10T23:19:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\scared_vocal.wav">
+      <PackagePath>Assets\scared_vocal.wav</PackagePath>
+      <Modified>2014-08-01T15:25:04.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\smash.wav">
+      <PackagePath>Assets\smash.wav</PackagePath>
+      <Modified>2014-08-22T21:20:13.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\BadgeLogo.scale-180.png">
+      <PackagePath>Assets\BadgeLogo.scale-180.png</PackagePath>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\CalibrateWheel\gfx_calibrate-inner.png">
+      <PackagePath>Assets\CalibrateWheel\gfx_calibrate-inner.png</PackagePath>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\CalibrateWheel\gfx_calibrate-outer.png">
+      <PackagePath>Assets\CalibrateWheel\gfx_calibrate-outer.png</PackagePath>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\CalibrateWheel\gfx_calibrate-touch.png">
+      <PackagePath>Assets\CalibrateWheel\gfx_calibrate-touch.png</PackagePath>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\ColorWheel\colorwheel.png">
+      <PackagePath>Assets\ColorWheel\colorwheel.png</PackagePath>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\DriveWheel\gfx_joystick.png">
+      <PackagePath>Assets\DriveWheel\gfx_joystick.png</PackagePath>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\CalibrateWheel\btn_calibrate_up.tif">
+      <PackagePath>Assets\CalibrateWheel\btn_calibrate_up.tif</PackagePath>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\Assets\DriveWheel\gfx_driveorb.tif">
+      <PackagePath>Assets\DriveWheel\gfx_driveorb.tif</PackagePath>
+      <Modified>2014-06-06T00:45:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-09-25T19:52:20.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\Debug\DrivePage.xbf">
+      <PackagePath>DrivePage.xbf</PackagePath>
+      <Modified>2014-12-04T15:06:46.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\Debug\BasicDriveApp.xr.xml">
+      <PackagePath>BasicDriveApp.xr.xml</PackagePath>
+      <Modified>2014-09-01T19:57:10.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-12-04T15:06:46.999</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

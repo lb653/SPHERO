@@ -1,0 +1,70 @@
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\x86\Debug\App.xbf
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\x86\Debug\DrivePage.xbf
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\x86\Debug\BasicDriveApp.xr.xml
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\x86\Debug\BasicDriveApp.exe
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\x86\Debug\BasicDriveApp.pdb
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\x86\Debug\resources.pri
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\x86\Debug\AppxManifest.xml
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\x86\Debug\SpheroDrive.build.appxrecipe
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\bin\x86\Debug\RobotKit.dll
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\SpheroDrive.csprojResolveAssemblyReference.cache
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\App.g.i.cs
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\App.g.cs
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\DrivePage.g.i.cs
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\DrivePage.g.cs
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\App.xaml
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\DrivePage.xaml
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\App.xbf
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\DrivePage.xbf
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\BasicDriveApp.exe
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\BasicDriveApp.pdb
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\SpheroDrive.csproj.GenerateResource.Cache
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\priconfig.xml
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\layout.resfiles
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\resources.resfiles
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\pri.resfiles
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\qualifiers.txt
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Laura\Desktop\SPHERO\BasicDriveApp\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\bin\x86\Debug\App.xbf
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\bin\x86\Debug\DrivePage.xbf
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\bin\x86\Debug\BasicDriveApp.xr.xml
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\bin\x86\Debug\BasicDriveApp.exe
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\bin\x86\Debug\BasicDriveApp.pdb
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\bin\x86\Debug\resources.pri
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\bin\x86\Debug\AppxManifest.xml
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\bin\x86\Debug\SpheroDrive.build.appxrecipe
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\bin\x86\Debug\RobotKit.dll
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\SpheroDrive.csprojResolveAssemblyReference.cache
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\App.g.i.cs
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\App.g.cs
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\DrivePage.g.i.cs
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\DrivePage.g.cs
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\App.xaml
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\DrivePage.xaml
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\App.xbf
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\DrivePage.xbf
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\BasicDriveApp.exe
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\BasicDriveApp.pdb
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\SpheroDrive.csproj.GenerateResource.Cache
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\priconfig.xml
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\layout.resfiles
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\resources.resfiles
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\pri.resfiles
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\qualifiers.txt
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Laura\Desktop\Yale Research\SPHERO\BasicDriveApp\obj\x86\Debug\ProjectArchitectures.txt

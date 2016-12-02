@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WES-WIN8-9415</Machine>
+    <WindowsUser>VVes</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>5B74BE006CE8C921EABF47C0684A172E1F30166AF49D46ED1060E22281282A91</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1c299fe1-c7cd-402c-8799-f93d6f534c55_1.0.0.1_neutral__r2rfyxbjmbe0y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1c299fe1-c7cd-402c-8799-f93d6f534c55_r2rfyxbjmbe0y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1c299fe1-c7cd-402c-8799-f93d6f534c55</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=WindowsSdk_2</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-06-25T15:53:51.792</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\bin\Release\BasicDriveApp.exe">
+      <PackagePath>BasicDriveApp.exe</PackagePath>
+      <Modified>2013-06-25T15:53:51.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\bin\Release\BasicDriveApp.pdb">
+      <PackagePath>BasicDriveApp.pdb</PackagePath>
+      <Modified>2013-06-25T15:53:51.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\RobotKit.dll">
+      <PackagePath>RobotKit.dll</PackagePath>
+      <Modified>2013-06-25T15:43:09.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\BadgeLogo.scale-180.png">
+      <PackagePath>Assets\BadgeLogo.scale-180.png</PackagePath>
+      <Modified>2013-06-25T15:42:01.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\CalibrateWheel\gfx_calibrate-inner.png">
+      <PackagePath>Assets\CalibrateWheel\gfx_calibrate-inner.png</PackagePath>
+      <Modified>2013-06-07T03:03:41.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\CalibrateWheel\gfx_calibrate-outer.png">
+      <PackagePath>Assets\CalibrateWheel\gfx_calibrate-outer.png</PackagePath>
+      <Modified>2013-06-07T03:03:41.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\CalibrateWheel\gfx_calibrate-touch.png">
+      <PackagePath>Assets\CalibrateWheel\gfx_calibrate-touch.png</PackagePath>
+      <Modified>2013-06-07T03:03:41.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\ColorWheel\colorwheel.png">
+      <PackagePath>Assets\ColorWheel\colorwheel.png</PackagePath>
+      <Modified>2013-06-10T21:02:24.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\DriveWheel\gfx_joystick.png">
+      <PackagePath>Assets\DriveWheel\gfx_joystick.png</PackagePath>
+      <Modified>2013-06-07T03:03:41.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <Modified>2013-06-25T15:42:01.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <Modified>2013-06-25T15:42:01.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <Modified>2013-06-25T15:42:01.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <Modified>2013-06-25T15:42:01.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <Modified>2013-06-25T15:42:01.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-06-25T15:42:01.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <Modified>2013-06-25T15:42:01.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\CalibrateWheel\btn_calibrate_up.tif">
+      <PackagePath>Assets\CalibrateWheel\btn_calibrate_up.tif</PackagePath>
+      <Modified>2013-06-07T03:03:41.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\Assets\DriveWheel\gfx_driveorb.tif">
+      <PackagePath>Assets\DriveWheel\gfx_driveorb.tif</PackagePath>
+      <Modified>2013-06-07T03:03:41.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-06-18T16:50:49.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\bin\Release\DrivePage.xbf">
+      <PackagePath>DrivePage.xbf</PackagePath>
+      <Modified>2013-06-18T16:50:49.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\VVes\dev\dev-WINDOWS-PLAYGROUND\BasicDriveApp\BasicDriveApp\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-06-25T15:45:12.768</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

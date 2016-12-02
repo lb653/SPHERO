@@ -1,0 +1,189 @@
+﻿<?xml version="1.0"?>
+<Page
+    x:Class="BasicDriveApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BasicDriveApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Center" Margin="10,10,0,0" TextWrapping="Wrap" Text="TIL Sphero" VerticalAlignment="Top" FontSize="72" FontWeight="Bold"/>
+        <TextBlock x:Name="SpheroName" HorizontalAlignment="Left" Margin="82,97,0,0" TextWrapping="Wrap" Text="No Sphero Connected" VerticalAlignment="Top" FontSize="24"/>
+
+        <TextBlock x:Name="AccelerometerValues" HorizontalAlignment="Right" Margin="82,30,30,0" TextWrapping="Wrap" Text="Accelerometer" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:Name="AccelerometerX" HorizontalAlignment="Right" Margin="0,58,30,0" TextWrapping="Wrap" Text="x" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="AccelerometerY" HorizontalAlignment="Right" Margin="82,80,30,0" TextWrapping="Wrap" Text="y" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="AccelerometerZ" HorizontalAlignment="Right" Margin="82,100,30,0" TextWrapping="Wrap" Text="z" VerticalAlignment="Top" FontSize="14"/>
+
+        <TextBlock x:Name="GyroscopeValues" HorizontalAlignment="Right" Margin="82,120,30,0" TextWrapping="Wrap" Text="Gyroscope" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock x:Name="GyroscopeX" HorizontalAlignment="Right" Margin="82,150,30,0" TextWrapping="Wrap" Text="x" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="GyroscopeY" HorizontalAlignment="Right" Margin="82,170,30,0" TextWrapping="Wrap" Text="y" VerticalAlignment="Top" FontSize="14"/>
+        <TextBlock x:Name="GyroscopeZ" HorizontalAlignment="Right" Margin="82,190,30,0" TextWrapping="Wrap" Text="z" VerticalAlignment="Top" FontSize="14"/>
+
+        <!-- TABLE TO DEFINE ACTIVITIES  -->
+        <Grid Background="Blue" Margin="500,250,440,240">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Row="1" Grid.Column="0" Margin="1,0,0,1" Background="Black" Height="58" BorderThickness="4">
+                <Button Name="topleft_button" Background="MediumOrchid" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="topleft_Click" ClickMode="Press">Left</Button>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="1" Margin="1,0,0,1" Background="Black" Height="58" BorderThickness="4">
+                <Button Name="sad_button" Background="LightSeaGreen" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="sad_button_Click" ClickMode="Press">Sad</Button>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="0" Margin="1,0,0,1" Background="Black" Height="58" BorderThickness="4">
+                <Button Name="center_button" Background="MediumOrchid" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="center_Click" ClickMode="Press">Center</Button>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="2" Margin="1,0,1,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="act1_button" Background="LightGreen" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="act1_button_Click"  ClickMode="Press">Activity 1</Button>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="0" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="topright_button" Background="MediumOrchid" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="topright_Click"  ClickMode="Press">Right</Button>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="1" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="happy_button" Background="LightSeaGreen" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="happy_button_Click"  ClickMode="Press">Happy</Button>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="2" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="act2_button" Background="LightGreen" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="act2_button_Click"  ClickMode="Press">Activity 2</Button>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="0" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="bottomleft_button" Background="MediumOrchid" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="bottomleft_Click"  ClickMode="Press">Down</Button>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="1" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="angry_button" Background="LightSeaGreen" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="angry_button_Click"  ClickMode="Press">Angry</Button>
+            </Border>
+            <Border Grid.Row="3" Grid.Column="2" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="act3_button" Background="LightGreen" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="act3_button_Click"  ClickMode="Press">Activity 3</Button>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="0" Margin="1,0,0,1" Background="Black" Height="58" BorderThickness="4">
+                <Button Name="bottomright_button" Background="MediumOrchid" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="bottomright_Click"  ClickMode="Press">Up</Button>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="1" Margin="1,0,0,1" Background="Black" Height="58" BorderThickness="4">
+                <Button Name="scared_button" Background="LightSeaGreen" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="scared_button_Click"  ClickMode="Press">Scared</Button>
+            </Border>
+            <Border Grid.Row="4" Grid.Column="2" Margin="1,0,0,1" Background="Black" Height="58" BorderThickness="4">
+                <Button Name="act4_button" Background="LightGreen" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="act4_button_Click"  ClickMode="Press">Activity 4</Button>
+            </Border>
+            <Border Grid.Row="10" Grid.ColumnSpan="3" Margin="1,0,0,1" Background="Black" Height="58" BorderThickness="4">
+                <Button Name="stop_button" Background="Red" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="stop_button_Click"  ClickMode="Press">STOP</Button>
+            </Border>
+           <Border Grid.Row="7" Grid.Column="2" Margin="1,0,0,1" Background="Black" Height="58" BorderThickness="4">
+                <Button Name="blue_button" Background="WhiteSmoke" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="blue_Click" ClickMode="Press">Blue</Button>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="2" Margin="1,0,0,1" Background="Black" Height="58" BorderThickness="4">
+                <Button Name="green_button" Background="WhiteSmoke" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="green_Click" ClickMode="Press">Green</Button>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="2" Margin="1,0,1,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="red_button" Background="WhiteSmoke" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="red_Click"  ClickMode="Press">Red</Button>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="0" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="small_circle" Background="MediumOrchid" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="smallcircle_Click"  ClickMode="Press">Small circles</Button>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="0" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="big_circle" Background="MediumOrchid" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="bigcircle_Click"  ClickMode="Press">Big circles</Button>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="1" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="vibrate" Background="WhiteSmoke" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="vibrate_Click"  ClickMode="Press">Vibrate</Button>
+            </Border>
+            <Border Grid.Row="6" Grid.Column="1" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="slow" Background="WhiteSmoke" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="slow_Click"  ClickMode="Press">Slow</Button>
+            </Border>
+            <Border Grid.Row="7" Grid.Column="1" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="fast" Background="WhiteSmoke" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="fast_Click"  ClickMode="Press">Fast</Button>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="1" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="record" Background="WhiteSmoke" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="record_Click"  ClickMode="Press">Record</Button>
+            </Border>
+            <Border Grid.Row="8" Grid.Column="2" Margin="1,0,0,1" Background="Black" Height="58"  BorderThickness="4">
+                <Button Name="playback" Background="WhiteSmoke" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="playback_Click"  ClickMode="Press">Playback</Button>
+            </Border>
+            <Border Grid.Row="9" Grid.ColumnSpan="3" Margin="1,0,0,1" Background="Black" Height="58" BorderThickness="4">
+                <Button Name="cheer_button" Background="BlueViolet" BorderBrush="LightSkyBlue" Height="Auto" Width="Auto" Foreground="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="25" FontWeight="Bold" Click="cheer_button_Click"  ClickMode="Press">CHEER!</Button>
+            </Border>
+
+        </Grid>
+
+        <!-- END OF ACTIVITIES TABLE -->
+
+        <Grid HorizontalAlignment="Right" Height="350" Margin="50,0,0,50" VerticalAlignment="Bottom" Width="350">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="220*"/>
+                <ColumnDefinition Width="220*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/DriveWheel/gfx_driveorb.tif"/>
+            </Grid.Background>
+            <Image x:Name="Puck" HorizontalAlignment="Center" Height="100" Margin="20" VerticalAlignment="Center" Width="100" Source="Assets/DriveWheel/gfx_joystick.png" Grid.ColumnSpan="2"/>
+        </Grid>
+
+        <Grid HorizontalAlignment="Left" Height="350" Margin="50,0,0,50" VerticalAlignment="Bottom" Width="350" RenderTransformOrigin="0.5,0.5">
+            <Grid.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/ColorWheel/colorwheel.png"/>
+            </Grid.Background>
+            <Image x:Name="ColorPuck" HorizontalAlignment="Center" Height="100" Margin="0,0,0,0" VerticalAlignment="Center" Width="100" Source="Assets/DriveWheel/gfx_joystick.png"/>
+        </Grid>
+
+        <ToggleSwitch x:Name="ConnectionToggle" HorizontalAlignment="Left" Margin="76,122,0,0" VerticalAlignment="Top" Toggled="ConnectionToggle_Toggled" />
+
+        <Grid HorizontalAlignment="Center" Height="512" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="512">
+            <Image x:Name="CalibrateTarget" HorizontalAlignment="Center" Height="100" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="100" Source="Assets/CalibrateWheel/btn_calibrate_up.tif"/>
+            <Grid x:Name="CalibrateRotationRoot" HorizontalAlignment="Center" Height="69" Margin="10,0,-10,443" VerticalAlignment="Center" Width="512">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="253*"/>
+                    <ColumnDefinition Width="259*"/>
+                </Grid.ColumnDefinitions>
+                <Image x:Name="CalibrateRingOuter" Visibility="Collapsed" HorizontalAlignment="Center" Height="460" Margin="26,-195,26,-196" VerticalAlignment="Center" Width="460" Source="Assets/CalibrateWheel/gfx_calibrate-outer.png" Grid.ColumnSpan="2"/>
+                <Image x:Name="CalibrateRingMiddle" Visibility="Collapsed" HorizontalAlignment="Center" Height="450" Margin="31,-190,31,-191" VerticalAlignment="Center" Width="450" Source="Assets/CalibrateWheel/gfx_calibrate-inner.png" Grid.ColumnSpan="2"/>
+                <Image x:Name="CalibrateRingInner" Visibility="Collapsed" HorizontalAlignment="Center" Height="360" Margin="76,-145,76,-146" VerticalAlignment="Center" Width="360" Source="Assets/CalibrateWheel/gfx_calibrate-outer.png" Grid.ColumnSpan="2"/>
+                <Image x:Name="CalibrationFingerPoint" Visibility="Collapsed" HorizontalAlignment="Center" Height="100" Margin="206,-31,206,0" VerticalAlignment="Bottom" Width="100" Source="Assets/CalibrateWheel/gfx_calibrate-touch.png" Grid.ColumnSpan="2"/>
+            </Grid>
+        </Grid>
+        <Grid>
+            <MediaElement x:Name="smash" Source="Assets/smash.wav" AutoPlay="False" />
+            <MediaElement x:Name="angry_music" Source="Assets/angry_music.wav" AutoPlay="False" />
+            <MediaElement x:Name="happy_vocal" Source="Assets/happy_vocal.wav" AutoPlay="False" />
+            <MediaElement x:Name="happy_vocal3" Source="Assets/happy_vocal3.wav" AutoPlay="False" />
+            <MediaElement x:Name="happy_vocal4" Source="Assets/happy_vocal4.wav" AutoPlay="False" />
+            <MediaElement x:Name="angry_vocal" Source="Assets/angry_vocal.wav" AutoPlay="False" />
+            <MediaElement x:Name="happy_music" Source="Assets/happy_music.wav" AutoPlay="False" />
+            <MediaElement x:Name="scared_music" Source="Assets/scared_music.wav" AutoPlay="False" />
+            <MediaElement x:Name="scared_vocal" Source="Assets/scared_vocal.wav" AutoPlay="False" />
+            <MediaElement x:Name="baby_crying" Source="Assets/baby_crying.wav" AutoPlay="False" />
+            <MediaElement x:Name="ouch" Source="Assets/ouch.WAV" AutoPlay="False" />
+            <MediaElement x:Name="ah" Source="Assets/ah.wav" AutoPlay="False" />
+            <MediaElement x:Name="cry1" Source="Assets/cry1.wav" AutoPlay="False" />
+            <MediaElement x:Name="cry3" Source="Assets/cry3.wav" AutoPlay="False" />
+            <MediaElement x:Name="cry4" Source="Assets/cry4.wav" AutoPlay="False" />
+            <MediaElement x:Name="cry5" Source="Assets/cry5.wav" AutoPlay="False" />
+            <MediaElement x:Name="child_crying" Source="Assets/child_crying.wav" AutoPlay="False" />
+            <MediaElement x:Name="eek" Source="Assets/eek.wav" AutoPlay="False" />
+            <MediaElement x:Name="gasp1" Source="Assets/gasp1.wav" AutoPlay="False" />
+            <MediaElement x:Name="gasp2" Source="Assets/gasp2.wav" AutoPlay="False" />
+            <MediaElement x:Name="haha_mean" Source="Assets/haha_mean.wav" AutoPlay="False" />
+            <MediaElement x:Name="haha_mean2" Source="Assets/haha_mean2.wav" AutoPlay="False" />
+            <MediaElement x:Name="hmph" Source="Assets/hmph.wav" AutoPlay="False" />
+            <MediaElement x:Name="cheering" Source="Assets/cheering.wav" AutoPlay="False" />
+
+        </Grid>
+
+    </Grid>
+</Page>
